@@ -1,0 +1,11 @@
+# ─────────────────────────────────────────────────────────────
+# Gesture Media Controller - Requirements (macOS only)
+# Install with: pip install -r requirements.txt
+# ─────────────────────────────────────────────────────────────
+
+opencv-python       # Camera capture & UI rendering
+mediapipe           # Hand landmark detection
+
+# NOTE: No extra packages needed for volume/media control.
+# This project uses 'osascript' (AppleScript) which is
+# built into macOS — no pip install required.
