@@ -1,6 +1,6 @@
-# 🎵 Hand Gesture Music Controller (MediaPipe + OpenCV + osascript)
+# 🎵 Hand Gesture Music Controller (MediaPipe + OpenCV + pycaw + comtypes )
 
-# ONLY COMPATIBLE FOR MACBOOK ! BUT WITH MINOR CHANGES YOU CAN MAKE IT FOR WINDOW ALSO ⚠️⚠️
+# ONLY COMPATIBLE FOR Windows ! BUT WITH MINOR CHANGES YOU CAN MAKE IT FOR MACOS ALSO ⚠️⚠️
 
 Built using:
 - [MediaPipe] for hand tracking
@@ -8,7 +8,7 @@ Built using:
 - [osascript / AppleScript] for macOS system volume and media key control
 
 > ✅ Now compatible with **macOS** (Apple Silicon & Intel).
-> ❌ No longer requires pycaw or comtypes (Windows-only).
+>  requires pycaw or comtypes (Windows-only).
 
 ## ✋ Supported Gestures
 
@@ -26,12 +26,11 @@ Built using:
 ### 1. Install dependencies
 
 ```bash
-pip install opencv-python mediapipe
-```
+pip install opencv-python mediapipe ...
 
-> `osascript` is built into macOS — no installation needed.
+In windows / linux - requirements installation is compulsory .
 
-### 2. Grant Permissions (macOS)
+### 2. Grant Permissions 
 
 macOS requires you to give your Terminal (or IDE) access to:
 - **Camera**: System Settings → Privacy & Security → Camera → enable Terminal/VS Code
@@ -42,5 +41,5 @@ macOS requires you to give your Terminal (or IDE) access to:
 ```bash
 python gesture.py
 ```
-
+Made by - SHIVANSH KUMAR
 Press **`q`** to quit.
